@@ -39,7 +39,7 @@
                   android:textSize="30sp"
                   android:background="#EEEE00"
                   android:layout_weight="1"
-                  android:text="綠"
+                  android:text="橙"
         />
 
 
