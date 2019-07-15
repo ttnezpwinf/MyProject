@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textSize="30sp"
+                  android:layout_weight="1"
+                  android:background="#E63F00"
+                  android:text="紅"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textSize="30sp"
+                  android:background="#EEEE00"
+                  android:layout_weight="1"
+                  android:text="黃"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textSize="30sp"
+                  android:layout_weight="1"
+                  android:background="#E63F00"
+                  android:text="藍"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textSize="30sp"
+                  android:background="#EEEE00"
+                  android:layout_weight="1"
+                  android:text="綠"
+        />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textSize="30sp"
+                  android:layout_weight="1"
+                  android:text="Row 1"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textSize="30sp"
+                  android:layout_weight="1"
+                  android:text="Row 2"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textSize="30sp"
+                  android:layout_weight="1"
+                  android:text="Row 3"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:textSize="30sp"
+                  android:layout_weight="1"
+                  android:text="Row 4"
+        />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
